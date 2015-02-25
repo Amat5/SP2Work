@@ -1,2 +1,4 @@
 *.log
 *.write.1.tlog
+/Common.vcxprojResolveAssemblyReference.cache
+/Application.obj
