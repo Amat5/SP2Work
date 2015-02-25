@@ -1,0 +1,75 @@
+﻿Build started 2/25/2015 1:18:23 PM.
+     1>Project "C:\Users\L532\Desktop\SP2Two\Application3\Application3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Application3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\L532\Desktop\SP2Two\\Common\Source /IC:\Users\L532\Desktop\SP2Two\\glfw\include /IC:\Users\L532\Desktop\SP2Two\\irrKlang\include /IC:\Users\L532\Desktop\SP2Two\\glew\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Application.cpp Source\Camera.cpp Source\Camera2.cpp Source\collisionSphere.cpp Source\collisionVolume.cpp Source\LoadOBJ.cpp Source\LoadTGA.cpp Source\main.cpp Source\Mesh.cpp Source\MeshBuilder.cpp Source\Scene.cpp Source\SceneText.cpp Source\shader.cpp Source\Utility.cpp
+         Utility.cpp
+         shader.cpp
+         SceneText.cpp
+     1>c:\users\l532\desktop\sp2two\application3\source\scenetext.cpp(270): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\scenetext.cpp(280): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\scenetext.cpp(290): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\scenetext.cpp(300): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\scenetext.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\scenetext.cpp(335): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Scene.cpp
+     1>c:\users\l532\desktop\sp2two\application3\source\scene.cpp(127): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\l532\desktop\sp2two\application3\source\scene.cpp(135): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\l532\desktop\sp2two\application3\source\scene.cpp(143): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\l532\desktop\sp2two\application3\source\scene.cpp(152): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\l532\desktop\sp2two\application3\source\scene.cpp(161): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\l532\desktop\sp2two\application3\source\scene.cpp(169): warning C4305: 'argument' : truncation from 'double' to 'float'
+         MeshBuilder.cpp
+         Mesh.cpp
+         main.cpp
+         LoadTGA.cpp
+         LoadOBJ.cpp
+         collisionVolume.cpp
+         collisionSphere.cpp
+         Camera2.cpp
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(33): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(34): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(41): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(42): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(48): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(49): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(55): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\l532\desktop\sp2two\application3\source\camera2.cpp(56): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Camera.cpp
+         Application.cpp
+         Generating Code...
+     1>c:\users\l532\desktop\sp2two\application3\source\scenetext.cpp(58): warning C4715: 'SceneText::sound' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Application3.exe.embed.manifest.res" Debug\Application3_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\L532\Desktop\SP2Two\Debug\Application3.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\L532\Desktop\SP2Two\\irrKlang\lib /LIBPATH:C:\Users\L532\Desktop\SP2Two\Debug /LIBPATH:"C:\Users\L532\Desktop\SP2Two\\glfw\lib-msvc100" /LIBPATH:C:\Users\L532\Desktop\SP2Two\\glew\lib glew32.lib glfw3.lib opengl32.lib winmm.lib Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Application3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\L532\Desktop\SP2Two\Debug\Application3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\L532\Desktop\SP2Two\Debug\Application3.lib" /MACHINE:X86 Debug\Application3.exe.embed.manifest.res
+         Debug\Application.obj
+         Debug\Camera.obj
+         Debug\Camera2.obj
+         Debug\collisionSphere.obj
+         Debug\collisionVolume.obj
+         Debug\LoadOBJ.obj
+         Debug\LoadTGA.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\MeshBuilder.obj
+         Debug\Scene.obj
+         Debug\SceneText.obj
+         Debug\shader.obj
+         Debug\Utility.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Application3.exe.embed.manifest" /manifest Debug\Application3.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Application3.vcxproj -> C:\Users\L532\Desktop\SP2Two\Debug\Application3.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Application3.unsuccessfulbuild".
+         Touching "Debug\Application3.lastbuildstate".
+     1>Done Building Project "C:\Users\L532\Desktop\SP2Two\Application3\Application3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.53
